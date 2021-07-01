@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MmIQ5yUAeMO5RthsWlEoaSKptVh36CZBDqUz84xOCGtRfNbc3HibIbwVtWpmpw1iIstp5foF4QpAZq5u+HB0Zw==",
+  "dgSpecHash": "fuKWx8nu8hKV5gJEJDLApVyPaAnrS61dEid4wUbROvBqDg3IuRWYHHVs0fpFrBtrhYAXa2+6w/xlGr7T12lQvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hoang vung\\Desktop\\cs\\aspNetCoreWebApi\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj",
+  "projectFilePath": "C:\\Users\\hoang vung\\Desktop\\web-api\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang vung\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hoang vung\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
