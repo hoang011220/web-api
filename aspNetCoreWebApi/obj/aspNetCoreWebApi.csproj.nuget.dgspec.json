@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hoang vung\\Desktop\\cs\\aspNetCoreWebApi\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj": {}
+    "C:\\Users\\hoang vung\\Desktop\\web-api\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hoang vung\\Desktop\\cs\\aspNetCoreWebApi\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj": {
+    "C:\\Users\\hoang vung\\Desktop\\web-api\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hoang vung\\Desktop\\cs\\aspNetCoreWebApi\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\hoang vung\\Desktop\\web-api\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj",
         "projectName": "aspNetCoreWebApi",
-        "projectPath": "C:\\Users\\hoang vung\\Desktop\\cs\\aspNetCoreWebApi\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj",
+        "projectPath": "C:\\Users\\hoang vung\\Desktop\\web-api\\aspNetCoreWebApi\\aspNetCoreWebApi.csproj",
         "packagesPath": "C:\\Users\\hoang vung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hoang vung\\Desktop\\cs\\aspNetCoreWebApi\\aspNetCoreWebApi\\obj\\",
+        "outputPath": "C:\\Users\\hoang vung\\Desktop\\web-api\\aspNetCoreWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
