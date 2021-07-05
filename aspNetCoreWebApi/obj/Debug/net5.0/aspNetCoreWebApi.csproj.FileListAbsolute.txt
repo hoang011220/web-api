@@ -270,3 +270,17 @@ C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\obj\Debug\net5.0\aspNetCore
 C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\obj\Debug\net5.0\ref\aspNetCoreWebApi.dll
 C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\obj\Debug\net5.0\aspNetCoreWebApi.pdb
 C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\obj\Debug\net5.0\aspNetCoreWebApi.genruntimeconfig.cache
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\Prometheus.NetCore.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\Prometheus.NetStandard.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\aspNetCoreWebApi.xml
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\obj\Debug\net5.0\aspNetCoreWebApi.xml
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\Namotion.Reflection.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NJsonSchema.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NJsonSchema.Yaml.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.Annotations.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.AspNetCore.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.Core.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.Core.Yaml.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.Generation.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.Generation.AspNetCore.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\YamlDotNet.dll
