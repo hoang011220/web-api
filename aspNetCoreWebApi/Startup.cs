@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +15,9 @@ using Microsoft.EntityFrameworkCore;
 using aspNetCoreWebApi.Models;
 using System.Reflection;
 using System.IO;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.Extensions.Options;
+using aspNetCoreWebApi.Models1;
 
 namespace aspNetCoreWebApi
 {
@@ -30,8 +33,15 @@ namespace aspNetCoreWebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddDbContext<TodoContext>(opt =>
                                                opt.UseInMemoryDatabase("TodoList"));
+
+            services.AddDbContext<ProductContext>(opt =>
+                                               opt.UseInMemoryDatabase("ProductList"));
+
+            // liên kết SQL Server
+            /*opt.UseSqlServer(Configuration.GetConnectionString("DevConnection"))) ;*/
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -61,6 +71,26 @@ namespace aspNetCoreWebApi
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
+
+            services
+                .AddControllersWithViews()
+                .AddNewtonsoftJson();
+        }
+
+        private static NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
+        {
+            var builder = new ServiceCollection()
+                .AddLogging()
+                .AddMvc()
+                .AddNewtonsoftJson()
+                .Services.BuildServiceProvider();
+
+            return builder
+                .GetRequiredService<IOptions<MvcOptions>>()
+                .Value
+                .InputFormatters
+                .OfType<NewtonsoftJsonPatchInputFormatter>()
+                .First();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
