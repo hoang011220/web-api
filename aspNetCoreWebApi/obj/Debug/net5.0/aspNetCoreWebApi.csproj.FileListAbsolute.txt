@@ -284,3 +284,6 @@ C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.Core
 C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.Generation.dll
 C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\NSwag.Generation.AspNetCore.dll
 C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\YamlDotNet.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\hoang vung\Desktop\web-api\aspNetCoreWebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
